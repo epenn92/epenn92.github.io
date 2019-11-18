@@ -1,7 +1,5 @@
 header{
-    grid-area: header;
-    b
-  
+    grid-area: header;  
 }
 
 .Me {
@@ -48,7 +46,7 @@ body {
     font-family: 'Raleway', sans-serif;
     display: inline-grid;
     grid-template-columns: 30% 20% 20% 30%;
-    grid-template-rows: 10% 20%% 15% 10% 25% 10%;
+    grid-template-rows: 10% 30% 25% 25% 15% 10%;
     grid-template-areas: "header header header header"
                          ". me me ."
                          ". me me ."
@@ -58,8 +56,6 @@ body {
     justify-items: stretch;
     background-color: #940505;
 background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-
-        
 }
 
 
@@ -124,3 +120,4 @@ footer nav li {
                             "footer";
       justify-items: center;
     }
+}
